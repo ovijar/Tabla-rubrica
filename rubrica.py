@@ -3,7 +3,7 @@ def saludo():
     print("= * = *"*10)
 
 
-def rubica():
+def rubrica():
     numero = float(input("¿Que puntaje desea calcular?\n"))
     base = int(input("¿En base a?\n"))
     resultado = numero/base * 4 + 1
@@ -14,7 +14,7 @@ def rubica():
 
 if __name__ == "__main__":
     saludo()
-    rubica()
+    rubrica()
 
 """
 UNA TABLA PARA EVALUAR LOS ESTUDIANTE MEDIANTE PUNTAJES OBTENIDOS EN LAS PRUEBAS
