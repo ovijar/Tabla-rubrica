@@ -7,21 +7,22 @@ COMO RESULTADO SE LA CALIFICACION REDONDEADA A UN DECIMAL.
 """
 
 def saludo():
-    """Funcion dar la bienvenida"""
+    """Función dar la bienvenida"""
     print("BIENVENIDO A LA TABLA RUBRICA")
     print("= * = *"*10)
 
 
 def rubrica():
-    """Funcion de la rubrica"""
+    """Función de la rubrica"""
     numero = float(input("¿Que puntaje desea calcular?\n"))
     base = int(input("¿En base a?\n"))
     resultado = numero/base * 4 + 1
     resultado = (round(resultado, 1))
-    print(f'El puntaje de ' + str(numero) +
+    print(f'El puntaje de: '+ str(numero)+
           '\nSu calificacion es = ' + str(resultado))
 
 
 if __name__ == "__main__":
     saludo()
     rubrica()
+    
